@@ -19,18 +19,18 @@ function about() {
 </div>
 </div>
 
-<div className=' flex justify-between bg-gradient-to-r from-[#3d679e00] to-[#00fffb3a] ring-offset-8 border-s-4'>
+<div className=' flex justify-between bg-gradient-to-r from-[#3d679e00] to-[#00fffb31] ring-offset-8 border-s-4'>
 <div className="ml-20 w-5/12 ">
-<h2 className='text-center mt-3'>Mis Fortalezas</h2>
+<h2 className='text-center mt-3 font-lilita text-2xl'>Mis Fortalezas</h2>
 <br/>
-      <ul className='mx-8'>
-      <li><h3>🎨Creatividad sin Límites:</h3> Encuentro inspiración en la cocina y la música, aplicando esa creatividad al código para ofrecer soluciones únicas.</li>
+      <ul className='mx-8  '>
+      <li><h3 className='font-lilita text-xl '>🎨Creatividad sin Límites:</h3><h4 className='italic font-bold '> Encuentro inspiración en la cocina y la música, aplicando esa creatividad al código para ofrecer soluciones únicas.</h4></li>
         <br />
-        <li><h3>💡Innovador Resiliente:</h3> Enfrento desafíos con humildad, utilizando mi experiencia pasada para superar obstáculos en el desarrollo.</li>
+        <li><h3 className='font-lilita text-xl'>💡Innovador Resiliente:</h3><h4 className='italic font-bold'> Enfrento desafíos con humildad, utilizando mi experiencia pasada para superar obstáculos en el desarrollo.</h4></li>
         <br />
-        <li><h3>🚀Aprendiz Tecnológico Apasionado:</h3> De cocinero a desarrollador en 6 meses, ansío aprender y crecer en el vasto mundo de la tecnología.</li>
+        <li><h3 className='font-lilita text-xl'>🚀Aprendiz Tecnológico Apasionado:</h3><h4 className='italic font-bold'> De cocinero a desarrollador en 6 meses, ansío aprender y crecer en el vasto mundo de la tecnología.</h4></li>
         <br />
-        <li><h3>🤝Colaborador Multifacético:</h3> Contribuyo al equipo de manera efectiva, aprovechando las habilidades que he perfeccionado en la cocina y la música.</li>
+        <li><h3 className='font-lilita text-xl'>🤝 Multifacético:</h3><h4 className='italic font-bold'> Contribuyo al equipo de manera efectiva, aprovechando las habilidades que he perfeccionado en la cocina y la música.</h4></li>
         <br />
       </ul>
 
@@ -44,7 +44,7 @@ function about() {
 
 </div>
 
-<div  className='mt-12'>
+<div  className='mt-10'>
           <h3 className='text-center '>¡Hola! Soy Gustavo  castillo , Full stack Developer  y 
             este es mi espacio digital donde convergen mi pasión,
              habilidades y trayectoria profesional.   </h3>

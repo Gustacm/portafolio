@@ -9,7 +9,9 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        "Anton":['Anton', "sans-serif"],
+        Anton:['Anton', "sans-serif"],
+        lilita:['Lilita One', " sans-serif"],
+
 
       },
 
