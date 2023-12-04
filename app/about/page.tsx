@@ -3,14 +3,27 @@ import React, { useEffect } from 'react'
 import Navbar from '../components/Navbar/navbar'
 import Image from 'next/image'
 import Link from 'next/link'
+import { motion, useScroll, useSpring } from "framer-motion";
 
 
 
 function about() {
+  const { scrollYProgress } = useScroll();
+  const scaleX = useSpring(scrollYProgress, {
+    stiffness: 100,
+    damping: 30,
+    restDelta: 0.001
+  });
 
   return (
     <div className="min-h-screen bg-[#ffffff] ease-in-out  ">     
+        <>
+      <motion.div className="progress-bar" style={{ scaleX }} />
       <Navbar/>
+      
+    </>
+
+
       <div className=' h-10'></div>
       <div className='h-20' >
 
