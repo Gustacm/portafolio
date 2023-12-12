@@ -6,9 +6,6 @@ import { SiTypescript,SiJavascript, SiRedux, SiReact, SiNextdotjs, SiNestjs, SiT
 import { TbBrandVscode } from 'react-icons/tb';
 import { LiaCloudShowersHeavySolid } from "react-icons/lia";
 import { BsStripe } from 'react-icons/bs';
-import { ImGooglePlus3 } from "react-icons/im";
-import CertificadoH from '../components/CertificadoH';
-import PDFViewer from '../components/CertificadoH';
 
 interface TecnologiaEnlaceProps {
     nombre: string;
@@ -40,42 +37,152 @@ function page() {
         animate={{ opacity: 1, filter: "blur(0px)" }}
         transition={{ ease: [0.30, 0.67, 0.83, 0.67], duration: 1 }}
         >     
-    
-    
-    <div className='h-16 flex items-center'>
-    
-      <Link href="/" className='text-[#BFC5D9] pl-24 pr-6 text-4xl  hover:text-[#8089A6]'><FaHome /></Link>
-      
-      <div className='font-lilita  shadow-cyan-500/50'>
-  <Link href="/about"> 
-    <h2 className='text-xl text-center font hover:text-clip text-[#010326] bg-[#BFC5D9] rounded w-16 hover:bg-[#8089A6] mx-auto'>
-      About
-    </h2>
-  </Link>
-  <Link href="/proyect"> 
-    <h2 className='text-xl text-center font hover:text-clip text-[#010326] bg-[#BFC5D9] rounded w-16 hover:bg-[#8089A6] mx-auto'>
-    Proyect
-    </h2>
-  </Link>
-</div>
-      <h1 className='text-center font-lilita text-4xl pl-96 text-[#BFC5D9]'>Skill</h1>
+<div className='flex pt-4 pr-6 flex-row items-center'>
+  <Link href="/" className='text-[#BFC5D9] pl-24 pr-6 text-4xl hover:text-[#8089A6]'><FaHome /></Link>
 
-    
-    </div>
+  <div className='font-lilita shadow-cyan-500/50 pr- flex'>
+    <Link className='pr-2' href="/about">
+      <h2 className='text-xl text-center font hover:text-clip text-[#010326] bg-[#BFC5D9] rounded w-20 hover:bg-[#8089A6] mx-auto'>
+        About
+      </h2>
+    </Link>
 
-<div>
-    <h2> Certificado Full Stack </h2>
-    <div className='w-5 h-5 border border-gray-300'>
-    <PDFViewer  pdfUrl="/fs.pdf" />
-    </div>
+    <Link href="/proyect">
+      <h2 className='text-xl text-center font hover:text-clip text-[#010326] bg-[#BFC5D9] rounded w-20 hover:bg-[#8089A6] mx-auto'>
+        Proyect
+      </h2>
+    </Link>
+  </div>
+
+  <h1 className='text-center font-lilita text-4xl pl-80 text-[#BFC5D9]'>Skill</h1>
 </div>
+
+
     
     
 
      <div className="flex items-center justify-center bg-gradient-to-r from-[#3d679e00] to-[#344459]">
     <div className="text-[#BFC5D9]">
       <div>
+        <div className='flex flex-row'>
 
+    <div className='pl-8 w-96 h-72 pt-8 p relative'>
+      <Link href='/your-url-here'>
+        <motion.div
+          className='rounded-lg overflow-hidden cursor-pointer relative'
+          whileHover={{ scale: 1.05 }}
+        >
+          <motion.img
+            src='/img/Tch.jpg'
+            alt='Description of the image'
+            className='w-full h-full'
+            whileHover={{ filter: 'blur(5px)' }}
+            initial={{ filter: 'blur(0px)' }}
+          />
+          <div className='absolute top-0 left-0 w-full h-full flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300'>
+            <div className=' h-full w-full  items-center justify-center  bg-[#010326b3]   '>
+            <div className='text-white text-center p-3'>
+                <h3 className='text-2xl font-semibold pt-2'> ¿Teaching Assistan👩‍🏫?</h3>
+                <h4  className=' text-sm font-normal text-left pt-3 '>
+                La figura de "Teaching Assistant" en Henry proporciona apoyo diario a los estudiantes durante su proceso en el Bootcamp,
+                 ofreciendo asistencia y soluciones interactivas  en  proceso educativo.</h4>
+            </div>
+            </div>
+          </div>
+        </motion.div>
+      </Link>
+      <h2 className='text-center font-lilita'>Certificado Teaching Assistan</h2>
+    </div>
+
+      <div className='pl-8 w-96 h-72 pt-8 p relative'>
+      <Link href='https://certificates.soyhenry.com/new-cert?id=b1dd215a715580c6bed2adffdb999109251a810c261b6405d15580d2d9335131'>
+        <motion.div
+          className='rounded-lg overflow-hidden cursor-pointer relative'
+          whileHover={{ scale: 1.05 }}
+        >
+          <motion.img
+            src='/img/FS.jpg'
+            alt='Description of the image'
+            className='w-full h-full'
+            whileHover={{ filter: 'blur(5px)' }}
+            initial={{ filter: 'blur(0px)' }}
+          />
+          <div className='absolute top-0 left-0 w-full h-full flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300'>
+            <div className=' h-full w-full  items-center justify-center  bg-[#010326b3]   '>
+            <div className='text-white text-center p-3'>
+                <h3 className='text-2xl font-semibold pt-1'>¿Que es Henry 🚀?</h3>
+                <h4  className=' text-sm font-normal text-left pt-2 '>
+Henry es una academia de desarrollo de software en Latinoamérica que ofrece formación intensiva en desarrollo web Full Stack.
+ Henry busca democratizar el acceso a la educación en tecnología y preparar a los estudiantes para oportunidades laborales en la industria tecnológica regional.</h4>
+            </div>
+            </div>
+          </div>
+        </motion.div>
+      </Link>
+      <h2 className='text-center font-lilita'>Certificado Full Stack</h2>
+    </div>
+    
+
+    <div className='pl-8 w-72 h-72 pt-8 p relative'>
+      <Link href='https://i.ibb.co/6yRQyP9/tec.jpg'>
+        <motion.div
+          className='rounded-lg overflow-hidden cursor-pointer relative'
+          whileHover={{ scale: 1.05 }}
+        >
+          <motion.img
+            src='/img/tec.jpeg'
+            alt='Description of the image'
+            className='w-full h-full'
+            whileHover={{ filter: 'blur(5px)' }}
+            initial={{ filter: 'blur(0px)' }}
+          />
+          <div className='absolute top-0 left-0 w-full h-full flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300'>
+            <div className=' h-full w-full  items-center justify-center  bg-[#010326b3]   '>
+            <div className='text-white text-center p-3'>
+                <h3 className='text-xl font-semibold pt-2'>Tco. Admin 👨‍💼</h3>
+                <h4  className=' text-sm font-normal text-left pt-2 '>
+                Capacitado en tareas administrativas y de gestión empresarial, organizar recursos y facilitar el buen funcionamiento de una organización.</h4>
+            </div>
+            </div>
+          </div>
+        </motion.div>
+      </Link>
+      <h2 className='text-center font-lilita'>Certificado Tecnico en  administracion </h2>
+    </div>
+
+    <div className='pl-8 w-72 h-72 pt-8 p relative'>
+      <Link href='https://i.ibb.co/vkPL7Jj/fundaU.jpg'>
+        <motion.div
+          className='rounded-lg overflow-hidden cursor-pointer relative'
+          whileHover={{ scale: 1.05 }}
+        >
+          <motion.img
+            src='/img/fundaU.jpeg'
+            alt='Description of the image'
+            className='w-full h-full'
+            whileHover={{ filter: 'blur(5px)' }}
+            initial={{ filter: 'blur(0px)' }}
+          />
+          <div className='absolute top-0 left-0 w-full h-full flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300'>
+            <div className=' h-full w-full  items-center justify-center  bg-[#010326b3]   '>
+            <div className='text-white text-center p-3'>
+                <h3 className='text-xl font-semibold pt-2'>Oratoria y Liderazgo 🎙️</h3>
+                <h4  className=' text-sm font-normal text-left pt-3 '>
+                Cuento con habilidades comunicativas sólidas y técnicas efectivas para expresar 
+                ideas con confianza, persuadir audiencias y liderar con impacto.</h4> 
+            </div>
+            </div>
+          </div>
+        </motion.div>
+      </Link>
+      <h2 className='text-center font-lilita'>Certificado Oratoria y Liderazgo </h2>
+    </div>
+
+    </div>
+
+
+        <h2 className='font-lilita'>Tecnologias Que Manejo:</h2>
+            
         <div className="flex flex-wrap bg-center space-x-4 space-y-4 text-4xl">
             
           <TecnologiaEnlace nombre="TypeScript" icono={<SiTypescript />} documentacionUrl="https://www.typescriptlang.org/" />
@@ -130,14 +237,14 @@ function page() {
 
      
     
-    
-    <div className='font-lilita mt-2 shadow-cyan-500/50'>
-      <Link href="/skills"> 
-        <h2 className='text-4xl text-center font hover:text-clip text-[#010326] bg-[#BFC5D9] rounded w-36 hover:bg-[#8089A6] mx-auto'>
-        Skills
-        </h2>
-      </Link>
-    </div>
+  <div className='font-lilita mt-2 shadow-cyan-500/50'>
+  <Link href="/img/CV_Gustavo_Castillo.pdf" download>
+    <h2 className='text-3xl text-center font hover:text-clip text-[#010326] bg-[#BFC5D9] rounded w-60  hover:bg-[#8089A6] mx-auto p-1'>
+       Mi CV
+    </h2>
+  </Link>
+</div>
+
     
     
             <div className='absolute bottom-0 right-5 mb-1 '>
@@ -156,12 +263,12 @@ function page() {
         <div className='pt-0'>
     
         <h3 className='text-center text-xs text-[#BFC5D9] pt-1'>
-        "Cada línea de código es una oportunidad para dar vida a nuevas ideas y superar desafíos. 
-        <br/>¡Convierte tus conceptos en realidad y únete a la revolución digital! Estoy aquí para escuchar tus ideas y colaborar en la creación de algo extraordinario.
-         <br/>¡Contáctame y construyamos juntos el futuro que imaginamos!"
+        🌟 Estoy abierto a oportunidades emocionantes y colaboraciones. ¡No dudes en contactarme en mi correo para cualquier consulta o propuesta! 📩"
+        <br/>Gacias por Visitar Mi app 
+       
     </h3>
     <div className='pt-1'>
-                <p className='text-center text-xs text-[#174dff] overline'>GustavoCastilloma@gmail.com</p>
+                <p className='text-center text-sm text-[#174dff] overline'>GustavoCastilloma@gmail.com</p>
           </div>
         </div>
         

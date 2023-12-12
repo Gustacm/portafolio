@@ -41,7 +41,7 @@ const Modal: React.FC<ModalProps> = ({
               transition={{ duration: 0.3 }}
               className="fixed inset-0 z-50 px-20 flex justify-end items-start bg-opacity-95 backdrop-blur-md overflow-y-auto"
             >
-              <button onClick={closeModal} className=" text-red-600 text-4xl">
+              <button onClick={closeModal} className="  text-4xl">
                 <VscChromeClose />
               </button>
               <motion.div
@@ -52,9 +52,9 @@ const Modal: React.FC<ModalProps> = ({
                 className="bg-white p-6 max-w-7xl rounded-lg mt-10 flex flex-col items-start"
                 style={{ maxHeight: '90vh' }} 
               >
-                <div className="max-w-full">
+                <div className="max-w-full  text-[#011140]">
                   {projectName && <h2 className="text-3xl text-center font-semibold">{projectName}</h2>}
-                  {fechas && <p className="text-sm text-gray-500">{fechas}</p>}
+                  {fechas && <p className="text-sm text-[#011140]">{fechas}</p>}
                   {descripcion && <p className="text-sm">{descripcion}</p>}
                   {experienciaAcademica && <p className="text-sm">{experienciaAcademica}</p>}
                   {logrosDestacados && <p className="text-sm">{logrosDestacados}</p>}
@@ -73,7 +73,7 @@ const Modal: React.FC<ModalProps> = ({
                   {tecnologias && (
                     <div className="mt-2">
                       <p className="text-sm font-semibold">Tecnologías:</p>
-                      <div className="flex items-center">
+                      <div className="flex items-center text-[#3444598d]">
                         {Object.entries(tecnologias).map(([tipo, tecnologia], index) => (
                           <div key={index} className="text-sm   ">
                             {/* <p className='text-ms'>{tipo}:</p> */}

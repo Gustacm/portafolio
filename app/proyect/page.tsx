@@ -43,7 +43,7 @@ function page() {
     
     <div className='font-lilita mt-2 shadow-cyan-500/50'>
       <Link href="/skills"> 
-        <h2 className='text-4xl text-center font hover:text-clip text-[#010326] bg-[#BFC5D9] rounded w-36 hover:bg-[#8089A6] mx-auto'>
+        <h2 className='text-3xl text-center font hover:text-clip text-[#010326] bg-[#BFC5D9] rounded w-36 hover:bg-[#8089A6] mx-auto'>
         Skills
         </h2>
       </Link>
@@ -65,14 +65,15 @@ function page() {
     </div>
         <div className='pt-0'>
     
-        <h3 className='text-center text-xs text-[#BFC5D9] pt-1'>
-        "Cada línea de código es una oportunidad para dar vida a nuevas ideas y superar desafíos. 
-        <br/>¡Convierte tus conceptos en realidad y únete a la revolución digital! Estoy aquí para escuchar tus ideas y colaborar en la creación de algo extraordinario.
-         <br/>¡Contáctame y construyamos juntos el futuro que imaginamos!"
-    </h3>
-    <div className='pt-1'>
-                <p className='text-center text-xs text-[#174dff] overline'>GustavoCastilloma@gmail.com</p>
-          </div>
+        <div className='text-center text-xs text-[#BFC5D9] pt-1'>
+  <h4 className='font-bold mb-1'>¡Dato curioso! 🌟</h4>
+  Estás utilizando mi proyecto, el cual desarrollé con Next.js, Tailwind y TypeScript. Esta pequeña aplicación es una muestra de mis habilidades, destrezas y creatividad.
+  <br/>
+  Te invito a visitar mi repositorio para ver cómo funciona. ¡Gracias por explorar! 🚀
+</div>
+<div className='pt-1'>
+  <p className='text-center text-xs text-[#174dff] overline'>GustavoCastilloma@gmail.com</p>
+</div>
         </div>
         
     
