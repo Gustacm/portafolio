@@ -84,7 +84,7 @@ function page() {
             <div className='text-white text-center p-3'>
                 <h3 className='text-2xl font-semibold pt-2'> ¿Teaching Assistan👩‍🏫?</h3>
                 <h4  className=' text-sm font-normal text-left pt-3 '>
-                La figura de 'Teaching Assistant' en Henry proporciona apoyo diario a los estudiantes durante su proceso en el Bootcamp,
+                La figura de Teaching Assistant en Henry proporciona apoyo diario a los estudiantes durante su proceso en el Bootcamp,
                  ofreciendo asistencia y soluciones interactivas  en  proceso educativo.</h4>
             </div>
             </div>
