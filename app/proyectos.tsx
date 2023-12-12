@@ -61,7 +61,7 @@ const proyectos: Proyecto[] = [
         <h2 key="clu"className=" text-sm">Stripe</h2>,
         <h2 key="ou"className=" text-sm">Solidity</h2>,
       ],
-      baseDeDatos: [<h2 key="firebase"  className=" text-sm">Firebase</h2>, <BiLogoPostgresql />],
+      baseDeDatos: [<h2 key="firebase"  className=" text-sm">Firebase</h2>, <BiLogoPostgresql key="ps" />],
     },
     imagen: [
       "https://media.licdn.com/dms/image/D4E2DAQET9pnoOnAnkw/profile-treasury-image-shrink_800_800/0/1700759691720?e=1702904400&v=beta&t=uM4uLfOL044a8cJQYeRyRQA5pKOEOH-ESNB1uE1e_IQ",
