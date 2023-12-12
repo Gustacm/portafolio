@@ -25,7 +25,7 @@ function Page() {
           </Link>
         </div>
 
-        <h1 className='text-center font-lilita text-2xl md:pl-24 lg:text-4xl pl-2 lg:pl-80 text-[#BFC5D9] md:pl-0'>Proyect</h1>
+        <h1 className='text-center font-lilita text-2xl md:pl-24 lg:text-4xl pl-2 lg:pl-80 text-[#BFC5D9] '>Proyect</h1>
 
       </div>
 
@@ -43,16 +43,20 @@ function Page() {
         </Link>
       </div>
 
-      <div className='absolute bottom-0 right-5 mb-20 md:mb-1 '>
-        <Link href='https://github.com/Gustacm' target='_black' className='text-[#BFC5D9] pt-10 text-5xl hover:text-[#8089A6]'>
-          <FaGithubSquare />
-        </Link>
-      </div>
-      <div className='absolute bottom-0 right-16 pt-10 pr-1 mb-20 md:mb-1 '>
-        <Link href='https://www.linkedin.com/in/gustavo-castillo-94a000252' target='_black' className='text-[#BFC5D9] pt-10 text-5xl hover:text-[#8089A6]'>
-          <FaLinkedin />
-        </Link>
-      </div>
+
+      <div id="floating-buttons">
+  <div className='fixed bottom-0 right-5 mb-0 md:mb-4'>
+    <Link href='https://github.com/Gustacm' target='_blank' className='text-[#BFC5D9] pt-5 text-3xl md:text-5xl hover:text-[#8089A6]'>
+      <FaGithubSquare />
+    </Link>
+  </div>
+  <div className='fixed bottom-0 right-16 pt-10 pr-1 mb-0 md:mb-4'> 
+    <Link href='https://www.linkedin.com/in/gustavo-castillo-94a000252' target='_blank' className='text-[#BFC5D9] pt-10 text-3xl md:text-5xl hover:text-[#8089A6]'>
+      <FaLinkedin />
+    </Link>
+  </div>
+</div>
+
 
       <div className='pt-0'>
         <div className='text-center text-xs text-[#BFC5D9] pt-1'>
