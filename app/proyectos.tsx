@@ -46,17 +46,17 @@ const proyectos: Proyecto[] = [
     ],
     tecnologias: {
       lenguaje: [<div className="text-8xl hover:text-blue-600 transition duration-300 ease-in-out opacity-70 hover:opacity-80">
-      <SiTypescript />
+      <SiTypescript key="ns" />
     </div>],
       frontend: [
-        <TbBrandNextjs />,
-        <TbBrandRedux />,
-        <BiLogoTailwindCss />,
+        <TbBrandNextjs key="nes" />,
+        <TbBrandRedux key="redux" />,
+        <BiLogoTailwindCss key="css" />,
         <h2 className=" text-sm">Cloudinary</h2>,
       ],
       backend: [
-        <SiNestjs />,
-        <FaNodeJs />,
+        <SiNestjs key="njs"  />,
+        <FaNodeJs key="node" />,
         <h2 className=" text-sm">Coinbase</h2>,
         <h2 className=" text-sm">Stripe</h2>,
         <h2 className=" text-sm">Solidity</h2>,
@@ -94,12 +94,12 @@ const proyectos: Proyecto[] = [
       "Agregué funcionalidades interactivas como búsquedas y filtros para facilitar la exploración de Pokémon.",
     ],
     tecnologias: {
-      lenguaje: [<div className="text-8xl hover:text-yellow-500 transition duration-300 ease-in-out opacity-70 hover:opacity-80">
-      <SiJavascript />
+      lenguaje: [<div key="typescript" className="text-8xl hover:text-yellow-500 transition duration-300 ease-in-out opacity-70 hover:opacity-80">
+      <SiJavascript key="java"  />
     </div>],
-      frontend: [<FaReact />, <TbBrandRedux />, <BiLogoTailwindCss  />,<FaCss3 />],
-      backend: [<FaNodeJs />, <h1 className="text-sm">Express.js</h1>],
-      baseDeDatos: [<SiMysql />, <BiLogoPostgresql />],
+      frontend: [<FaReact key="nextjs"  />, <TbBrandRedux key="redux" />, <BiLogoTailwindCss key="twcss"   />,<FaCss3 key="css"  />],
+      backend: [<FaNodeJs key="node" />, <h1 className="text-sm">Express.js</h1>],
+      baseDeDatos: [<SiMysql key="nmys"  />, <BiLogoPostgresql key="neps"  />],
     },
     imagen: [
       "https://media.licdn.com/dms/image/D4E2DAQFGbIAn8AGnoQ/profile-treasury-image-shrink_800_800/0/1700758479231?e=1702904400&v=beta&t=m2HY21w5PcN-O8SPI45YNKX7XVhaBntwtAiYhts3QFo",

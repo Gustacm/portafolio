@@ -2,12 +2,11 @@
 
 'use client'
 
-import Image from 'next/image';
+
 import Link from 'next/link';
 
 import { motion } from 'framer-motion'
 import { FaLinkedin,FaGithubSquare } from 'react-icons/fa';
-import { BsFillDiagram3Fill } from 'react-icons/bs';
 
 
 import React, { useState, useEffect } from 'react';
@@ -20,7 +19,7 @@ const photos = [
 ];
 
 
-function page() {
+function Page() {
   const [currentPhotoIndex, setCurrentPhotoIndex] = useState(0);
 
   useEffect(() => {
@@ -117,9 +116,9 @@ function page() {
 </div>
     <div className='pt-0'>
       <h3 className='text-center text-xs text-[#BFC5D9] pt-6'>
-      'La programación es el arte de crear mundos digitales, donde las ideas se transforman en realidad a través de la lógica y la creatividad. En cada línea de código,
+      La programación es el arte de crear mundos digitales, donde las ideas se transforman en realidad a través de la lógica y la creatividad. En cada línea de código,
       <br/> se encuentra el poder de construir el futuro y resolver los desafíos del presente.
-      <br/> ¡Programa con pasión y crea el cambio que deseas ver en el mundo digital!'
+      <br/> ¡Programa con pasión y crea el cambio que deseas ver en el mundo digital!
       </h3>
       <div className='pt-6'>
             <p className='text-center text-xs text-[#174dff] overline'>GustavoCastilloma@gmail.com</p>
@@ -134,5 +133,5 @@ function page() {
   );
 }
 
-export default page
+export default Page
 
