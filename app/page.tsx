@@ -43,7 +43,7 @@ function Page() {
     <div className='min-h-screen  bg-[#010326] ease-in-out '>
 
 
-<div className='relative  h-[500px] z-0'>
+    <div className='relative h-[400px] md:h-[500px] '>
       <div className='bg-[#000000af] absolute top-0 left-0 w-full h-full z-10'>
         {photos.map((photo, index) => (
           <img
@@ -58,28 +58,28 @@ function Page() {
         ))}
       </div>
       </div>
-
       
 
-      <div className='absolute top-0 left-0 w-full h-[78%] z-20 flex items-center justify-center shadow-md'>
-        <div className='bg-[#bfc5d98a] shadow-inner  text-center front hover:text-clip  px-96 py-24 rounded-lg'>
-          <div className='pb-0'>
-          <div className='h-44'>
-  <motion.h1
-    initial={{ opacity: 0, y: 10 }}
-    animate={{ opacity: 1, y: 0 }}
-    transition={{ duration: 2.0 }}
-    className='text-[#344459] text-center font-lilita -z-0 text-4xl md:text-7xl lg:text-7xl leading-tight'>
-    Bienvenido a <p className='text-5xl'> Mi Portafolio </p>
-  </motion.h1>
-</div>
+      <div className='absolute md:h-[80%]  top-0 left-0 w-full md:w-[100%] h-[69%]  z-20 flex items-center justify-center shadow-md'>
+  <div className='bg-[#bfc5d98a] shadow-inner text-center front hover:text-clip px-40 md:px-96 py-14 md:py-36 rounded-lg'>
 
-<h3 className='bg-clip-text text-transparent bg-gradient-to-r from-[#344459] to-[#344459] capitalize break-all text-xl md:text-3xl pb-4 text-center font-Anton leading-tight'>
-  ¡Hola! Soy Gustavo Castillo, <br/>
-  <span className='text-[#011140] border-solid border-2 border-[#011140] inline-block p-1'>
-    Full stack Developer
-  </span> y este es mi espacio digital.
-</h3>
+    <div className='w-full h-full '>
+      <div className='w-full h-full'>
+        <motion.h1
+          initial={{ opacity: 0, y: 10 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 2.0 }}
+          className='text-[#344459] text-center font-lilita pl-2 text-3xl md:text-5xl leading-tight'>
+          Bienvenido a <p className='text-3xl md:text-5xl'> Mi Portafolio </p>
+        </motion.h1>
+      </div>
+
+      <h3 className='bg-clip-text text-transparent bg-gradient-to-r from-[#344459] to-[#344459] capitalize break-all text-xl md:text-3xl pb-4 text-center font-Anton leading-tight'>
+        ¡Hola! Soy Gustavo Castillo, <br />
+        <span className='text-[#011140] border-solid border-2 border-[#011140] inline-block p-1'>
+          Full stack Developer
+        </span> y este es mi espacio digital.
+      </h3>
 
           </div>
           <Link href='/about'>
@@ -88,7 +88,7 @@ function Page() {
          whileTap={{ scale: 0.4 }}
          transition={{ type: 'spring', stiffness: 400, damping: 17 }}
             
-            className='text-[#ffffff] capitalize  text-2xl md:text-2xl px-2 py-1 font-lilita rounded-none bg-[#344459] hover:bg-[#8089A6] transition duration-300'>
+            className='text-[#ffffff] capitalize  text-xl md:text-4xl px-10 py-1 font-lilita rounded-none bg-[#344459] hover:bg-[#8089A6] transition duration-300'>
               About Me
             </motion.button>
           </Link>
@@ -96,18 +96,18 @@ function Page() {
          whileHover={{ scale: 1.2 }}
          whileTap={{ scale: 0.1 }}
          transition={{ type: 'spring', stiffness: 400, damping: 17 }}
-         className='text-white text-2xl rounded-none md:text-2xl px-4 py-2 font-lilita bg-[#011140] hover:bg-[#8089A6] transition duration-300'>
-          <Link href='/about' > Contact Me </Link>
+         className='text-white text-xl rounded-none md:text-4xl px-10 py-1 font-lilita bg-[#011140] hover:bg-[#8089A6] transition duration-300'>
+          <Link href='/proyect' > Proyect </Link>
           </motion.button>
         </div>
       </div>
-      <div className='absolute bottom-0 right-5 mb-1 '>
+      <div className='absolute bottom-0 right-5 mb-1 md:mb-1'>
       <Link href='https://github.com/Gustacm ' target='_black' className='text-[#BFC5D9] pt-10 text-5xl
       hover:text-[#8089A6]'>
       <FaGithubSquare />
 </Link>
 </div>
-<div className='absolute bottom-0 right-16 pt-10 pr-1 mb-1 '> 
+<div className='absolute bottom-0 right-16 pt-10 pr-1 mb-1 md:mb-1'> 
       <Link href='https://www.linkedin.com/in/gustavo-castillo-94a000252' target='_black' className='text-[#BFC5D9] pt-10 text-5xl
       hover:text-[#8089A6]'>
 
@@ -120,8 +120,8 @@ function Page() {
       <br/> se encuentra el poder de construir el futuro y resolver los desafíos del presente.
       <br/> ¡Programa con pasión y crea el cambio que deseas ver en el mundo digital!
       </h3>
-      <div className='pt-6'>
-            <p className='text-center text-xs text-[#174dff] overline'>GustavoCastilloma@gmail.com</p>
+      <div className='pt-4'>
+            <p className='text-center text-base text-[#174dff] overline'>GustavoCastilloma@gmail.com</p>
       </div>
     </div>
     </div>

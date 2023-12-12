@@ -13,7 +13,7 @@ function home() {
         <div className=' w-96 h-28 pl-20 py-20 '>
         {/* <Link href="/about" className='text-[#00FFFC] text-lg mr-4'> About Me </Link> */}
         <Link href="/about" className='text-[#00FFFC] text-lg mr-4'> Training</Link>
-        <Link href="/about" className='text-[#00FFFC] text-lg mr-4'> Projects</Link>
+        <Link href="/proyect" className='text-[#00FFFC] text-lg mr-4'> Projects</Link>
         </div>
 
         <Link href="/about" className='text-[#00FFFC] py-20 text-lg px-14'> Contact Me </Link>

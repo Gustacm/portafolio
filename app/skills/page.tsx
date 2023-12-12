@@ -31,15 +31,20 @@ const TecnologiaEnlace: React.FC<TecnologiaEnlaceProps> = ({ nombre, icono, docu
 );
 
 function page() {
-
-    return (
-        <motion.div className='min-h-screen bg-[#010326] ease-in-out  '
-        initial={{ opacity: 0, filter: 'blur(10px)' }}
-        animate={{ opacity: 1, filter: 'blur(0px)' }}
-        transition={{ ease: [0.30, 0.67, 0.83, 0.67], duration: 1 }}
-        >     
-<div className='flex pt-4 pr-6 flex-row items-center'>
-  <Link href='/' className='text-[#BFC5D9] pl-24 pr-6 text-4xl hover:text-[#8089A6]'><FaHome /></Link>
+  return (
+    <motion.div
+      className='min-h-screen bg-[#010326] ease-in-out'
+      initial={{ opacity: 0, filter: 'blur(10px)' }}
+      animate={{ opacity: 1, filter: 'blur(0px)' }}
+      transition={{ ease: [0.30, 0.67, 0.83, 0.67], duration: 1 }}
+    >
+ <div className='flex pt-4 pr-2 md:pr-6 flex-row items-center lg:text-4xl md:text-2xl'>
+  <Link
+    href='/'
+    className='text-[#BFC5D9] pl-2 pr-2 lg:pr-6 text-2xl lg:text-4xl hover:text-[#8089A6] md:mr-2'
+  >
+    <FaHome />
+  </Link>
 
   <div className='font-lilita shadow-cyan-500/50 pr- flex'>
     <Link className='pr-2' href='/about'>
@@ -55,20 +60,20 @@ function page() {
     </Link>
   </div>
 
-  <h1 className='text-center font-lilita text-4xl pl-80 text-[#BFC5D9]'>Skill</h1>
+  <h1 className='text-center font-lilita text-2xl md:pl-24 lg:text-4xl pl-2 lg:pl-80 text-[#BFC5D9] md:pl-0'>
+    Skill
+  </h1>
 </div>
 
-
     
     
-
-     <div className='flex items-center justify-center bg-gradient-to-r from-[#3d679e00] to-[#344459]'>
-    <div className='text-[#BFC5D9]'>
+      <div className='flex items-center justify-center bg-gradient-to-r from-[#3d679e00] to-[#344459]'>
+        <div className='text-[#BFC5D9]'>
       <div>
-        <div className='flex flex-row'>
+      <div className='flex flex-row flex-wrap justify-center'>
 
-    <div className='pl-8 w-96 h-72 pt-8 p relative'>
-      <Link href='/your-url-here'>
+      <div className='pl-4 md:pl-8 w-72 md:w-96 h-72 pt-8 p relative'>
+      <Link href='https://certificates.soyhenry.com/new-cert?id=ebef06262ca6f864668870433d51157da7302dbed00d938705525d7c49e1ca89'>
         <motion.div
           className='rounded-lg overflow-hidden cursor-pointer relative'
           whileHover={{ scale: 1.05 }}
@@ -92,15 +97,15 @@ function page() {
           </div>
         </motion.div>
       </Link>
-      <h2 className='text-center font-lilita'>Certificado Teaching Assistan</h2>
+      <h2 className='text-center font-lilita'>Certificado Teaching Assistant</h2>
     </div>
 
-      <div className='pl-8 w-96 h-72 pt-8 p relative'>
-      <Link href='https://certificates.soyhenry.com/new-cert?id=b1dd215a715580c6bed2adffdb999109251a810c261b6405d15580d2d9335131'>
-        <motion.div
-          className='rounded-lg overflow-hidden cursor-pointer relative'
-          whileHover={{ scale: 1.05 }}
-        >
+    <div className='pl-4 md:pl-8 w-72 md:w-96 h-72 pt-8 p relative'>
+        <Link href='https://certificates.soyhenry.com/new-cert?id=b1dd215a715580c6bed2adffdb999109251a810c261b6405d15580d2d9335131'>
+          <motion.div
+            className='rounded-lg overflow-hidden cursor-pointer relative'
+            whileHover={{ scale: 1.05 }}
+          >
           <motion.img
             src='/img/FS.jpg'
             alt='Description of the image'
@@ -119,17 +124,16 @@ Henry es una academia de desarrollo de software en Latinoamérica que ofrece for
             </div>
           </div>
         </motion.div>
-      </Link>
-      <h2 className='text-center font-lilita'>Certificado Full Stack</h2>
-    </div>
-    
+        </Link>
+        <h2 className='text-center font-lilita'>Certificado Full Stack</h2>
+      </div>
 
-    <div className='pl-8 w-72 h-72 pt-8 p relative'>
-      <Link href='https://i.ibb.co/6yRQyP9/tec.jpg'>
-        <motion.div
-          className='rounded-lg overflow-hidden cursor-pointer relative'
-          whileHover={{ scale: 1.05 }}
-        >
+      <div className='pl-4 md:pl-8 w-72 h-72 pt-8 p relative'>
+        <Link href='https://i.ibb.co/6yRQyP9/tec.jpg'>
+          <motion.div
+            className='rounded-lg overflow-hidden cursor-pointer relative'
+            whileHover={{ scale: 1.05 }}
+          >
           <motion.img
             src='/img/tec.jpeg'
             alt='Description of the image'
@@ -147,16 +151,16 @@ Henry es una academia de desarrollo de software en Latinoamérica que ofrece for
             </div>
           </div>
         </motion.div>
-      </Link>
-      <h2 className='text-center font-lilita'>Certificado Tecnico en  administracion </h2>
-    </div>
+        </Link>
+        <h2 className='text-center font-lilita'>Certificado Técnico en Administración</h2>
+      </div>
 
-    <div className='pl-8 w-72 h-72 pt-8 p relative'>
-      <Link href='https://i.ibb.co/vkPL7Jj/fundaU.jpg'>
-        <motion.div
-          className='rounded-lg overflow-hidden cursor-pointer relative'
-          whileHover={{ scale: 1.05 }}
-        >
+      <div className='pl-4 md:pl-8 w-72 h-72 pt-8 p relative'>
+        <Link href='https://i.ibb.co/vkPL7Jj/fundaU.jpg'>
+          <motion.div
+            className='rounded-lg overflow-hidden cursor-pointer relative'
+            whileHover={{ scale: 1.05 }}
+          >
           <motion.img
             src='/img/fundaU.jpeg'
             alt='Description of the image'
@@ -238,23 +242,24 @@ Henry es una academia de desarrollo de software en Latinoamérica que ofrece for
 
      
     
-  <div className='font-lilita mt-2 shadow-cyan-500/50'>
-  <Link href='/img/CV_Gustavo_Castillo.pdf' download>
-    <h2 className='text-3xl text-center font hover:text-clip text-[#010326] bg-[#BFC5D9] rounded w-60  hover:bg-[#8089A6] mx-auto p-1'>
-       Mi CV
+
+      <div className='font-lilita mt-2 shadow-cyan-500/50'>
+        <Link href='/img/CV_Gustavo_Castillo.pdf' download>
+          <h2 className='text-3xl text-center font hover:text-clip text-[#010326] bg-[#BFC5D9] rounded w-60  hover:bg-[#8089A6] mx-auto p-1'>
+            Mi CV
     </h2>
   </Link>
 </div>
 
     
     
-            <div className='absolute bottom-0 right-5 mb-1 '>
+            <div className='absolute bottom-0 right-5 mb-20  md:mb-1 '>
           <Link href='https://github.com/Gustacm ' target='_black' className='text-[#BFC5D9] pt-10 text-5xl
           hover:text-[#8089A6]'>
           <FaGithubSquare />
     </Link>
     </div>
-    <div className='absolute bottom-0 right-16 pt-10 pr-1 mb-1 '> 
+    <div className='absolute bottom-0 right-16 pt-10 pr-1 mb-20  md:mb-1'> 
           <Link href='https://www.linkedin.com/in/gustavo-castillo-94a000252' target='_black' className='text-[#BFC5D9] pt-10 text-5xl
           hover:text-[#8089A6]'>
     
