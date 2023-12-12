@@ -255,13 +255,13 @@ Henry es una academia de desarrollo de software en Latinoamérica que ofrece for
     
 
 <div id="floating-buttons">
-  <div className='fixed bottom-0 right-5 mb-0 md:mb-4'>
-    <Link href='https://github.com/Gustacm' target='_blank' className='text-[#BFC5D9] pt-5 text-3xl md:text-5xl hover:text-[#8089A6]'>
+  <div className='fixed bottom-0 right-1 mb-0 md:mb-4'>
+    <Link href='https://github.com/Gustacm' target='_blank' className='text-[#BFC5D9] pt-5 text-5xl md:text-5xl hover:text-[#8089A6]'>
       <FaGithubSquare />
     </Link>
   </div>
-  <div className='fixed bottom-0 right-16 pt-10 pr-1 mb-0 md:mb-4'> 
-    <Link href='https://www.linkedin.com/in/gustavo-castillo-94a000252' target='_blank' className='text-[#BFC5D9] pt-10 text-3xl md:text-5xl hover:text-[#8089A6]'>
+  <div className='fixed bottom-0 right-12 pt-10 pr-1 mb-0 md:mb-4'> 
+    <Link href='https://www.linkedin.com/in/gustavo-castillo-94a000252' target='_blank' className='text-[#BFC5D9] pt-10 text-5xl md:text-5xl hover:text-[#8089A6]'>
       <FaLinkedin />
     </Link>
   </div>
@@ -269,13 +269,13 @@ Henry es una academia de desarrollo de software en Latinoamérica que ofrece for
 
         <div className='pt-0'>
     
-        <h3 className='text-center text-xs text-[#BFC5D9] pt-1'>
+        <h3 className='md:text-center  text-left text-xs text-[#BFC5D9] pt-1'>
         🌟 Estoy abierto a oportunidades emocionantes y colaboraciones. ¡No dudes en contactarme en mi correo para cualquier consulta o propuesta! 📩
         <br/>Gacias por Visitar Mi app 
        
     </h3>
     <div className='pt-1'>
-                <p className='text-center text-sm text-[#174dff] overline'>GustavoCastilloma@gmail.com</p>
+                <p className='md:text-center  text-left text-sm text-[#174dff] overline'>GustavoCastilloma@gmail.com</p>
           </div>
         </div>
         

@@ -43,30 +43,28 @@ function Page() {
         </Link>
       </div>
 
-
       <div id="floating-buttons">
-  <div className='fixed bottom-0 right-5 mb-0 md:mb-4'>
-    <Link href='https://github.com/Gustacm' target='_blank' className='text-[#BFC5D9] pt-5 text-3xl md:text-5xl hover:text-[#8089A6]'>
+  <div className='fixed bottom-0 right-1 mb-0 md:mb-4'>
+    <Link href='https://github.com/Gustacm' target='_blank' className='text-[#BFC5D9] pt-5 text-5xl md:text-5xl hover:text-[#8089A6]'>
       <FaGithubSquare />
     </Link>
   </div>
-  <div className='fixed bottom-0 right-16 pt-10 pr-1 mb-0 md:mb-4'> 
-    <Link href='https://www.linkedin.com/in/gustavo-castillo-94a000252' target='_blank' className='text-[#BFC5D9] pt-10 text-3xl md:text-5xl hover:text-[#8089A6]'>
+  <div className='fixed bottom-0 right-12 pt-10 pr-1 mb-0 md:mb-4'> 
+    <Link href='https://www.linkedin.com/in/gustavo-castillo-94a000252' target='_blank' className='text-[#BFC5D9] pt-10 text-5xl md:text-5xl hover:text-[#8089A6]'>
       <FaLinkedin />
     </Link>
   </div>
 </div>
 
-
       <div className='pt-0'>
-        <div className='text-center text-xs text-[#BFC5D9] pt-1'>
+        <div className='md:text-center  text-left text-xs text-[#BFC5D9] pt-1'>
           <h4 className='font-bold mb-1'>¡Dato curioso! 🌟</h4>
           Estás utilizando mi proyecto, el cual desarrollé con Next.js, Tailwind y TypeScript. Esta pequeña aplicación es una muestra de mis habilidades, destrezas y creatividad.
           <br />
           Te invito a visitar mi repositorio para ver cómo funciona. ¡Gracias por explorar! 🚀
         </div>
         <div className='pt-1'>
-          <p className='text-center text-xs text-[#174dff] overline'>GustavoCastilloma@gmail.com</p>
+          <p className='md:text-center  text-left text-xs text-[#174dff] overline'>GustavoCastilloma@gmail.com</p>
         </div>
       </div>
 

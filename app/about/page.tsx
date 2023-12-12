@@ -62,29 +62,29 @@ function about() {
         </Link>
       </div>
 
+
       <div id="floating-buttons">
-  <div className='fixed bottom-0 right-5 mb-0 md:mb-4'>
-    <Link href='https://github.com/Gustacm' target='_blank' className='text-[#BFC5D9] pt-5 text-3xl md:text-5xl hover:text-[#8089A6]'>
+  <div className='fixed bottom-0 right-1 mb-0 md:mb-4'>
+    <Link href='https://github.com/Gustacm' target='_blank' className='text-[#BFC5D9] pt-5 text-5xl md:text-5xl hover:text-[#8089A6]'>
       <FaGithubSquare />
     </Link>
   </div>
-  <div className='fixed bottom-0 right-16 pt-10 pr-1 mb-0 md:mb-4'> 
-    <Link href='https://www.linkedin.com/in/gustavo-castillo-94a000252' target='_blank' className='text-[#BFC5D9] pt-10 text-3xl md:text-5xl hover:text-[#8089A6]'>
+  <div className='fixed bottom-0 right-12 pt-10 pr-1 mb-0 md:mb-4'> 
+    <Link href='https://www.linkedin.com/in/gustavo-castillo-94a000252' target='_blank' className='text-[#BFC5D9] pt-10 text-5xl md:text-5xl hover:text-[#8089A6]'>
       <FaLinkedin />
     </Link>
   </div>
 </div>
 
-
     <div className='pt-0'>
 
-    <h3 className='text-center text-xs text-[#BFC5D9] pt-1'>
+    <h3 className='md:text-center  text-left  text-xs text-[#BFC5D9] pt-1'>
   Cada interacción, cada línea de código, es una oportunidad para dar vida a nuevas ideas y solucionar desafíos. 
   <br/> ¡Convierte tus conceptos en realidad y únete a la revolución digital! Estoy aquí para escuchar tus ideas y colaborar en la creación de algo extraordinario.
 
 </h3>
 <div className='pt-6'>
-            <p className='text-center text-xs text-[#174dff] overline'>GustavoCastilloma@gmail.com</p>
+            <p className='md:text-center  text-left text-xs text-[#174dff] overline'>GustavoCastilloma@gmail.com</p>
       </div>
     </div>
     

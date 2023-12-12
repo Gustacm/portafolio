@@ -94,25 +94,29 @@ function Page() {
           </div>
         </div>
 
-        <div className='absolute bottom-0 right-5 mb-1 md:mb-1'>
-          <Link href='https://github.com/Gustacm ' target='_black' className='text-[#BFC5D9] pt-10 text-5xl hover:text-[#8089A6]'>
-            <FaGithubSquare />
-          </Link>
-        </div>
-        <div className='absolute bottom-0 right-16 pt-10 pr-1 mb-1 md:mb-1'>
-          <Link href='https://www.linkedin.com/in/gustavo-castillo-94a000252' target='_black' className='text-[#BFC5D9] pt-10 text-5xl hover:text-[#8089A6]'>
-            <FaLinkedin />
-          </Link>
-        </div>
+        <div id="floating-buttons">
+  <div className='fixed bottom-0 right-1 mb-0 md:mb-4'>
+    <Link href='https://github.com/Gustacm' target='_blank' className='text-[#BFC5D9] pt-5 text-5xl md:text-5xl hover:text-[#8089A6]'>
+      <FaGithubSquare />
+    </Link>
+  </div>
+  <div className='fixed bottom-0 right-12 pt-10 pr-1 mb-0 md:mb-4'> 
+    <Link href='https://www.linkedin.com/in/gustavo-castillo-94a000252' target='_blank' className='text-[#BFC5D9] pt-10 text-5xl md:text-5xl hover:text-[#8089A6]'>
+      <FaLinkedin />
+    </Link>
+  </div>
+</div>
+
+
 
         <div className='pt-0'>
-          <h3 className='text-center text-xs text-[#BFC5D9] pt-6'>
+          <h3 className='md:text-center  text-left text-base md:text-sm text-[#BFC5D9] pt-6'>
             La programación es el arte de crear mundos digitales, donde las ideas se transforman en realidad a través de la lógica y la creatividad. En cada línea de código,
             <br />se encuentra el poder de construir el futuro y resolver los desafíos del presente.
             <br />¡Programa con pasión y crea el cambio que deseas ver en el mundo digital!
           </h3>
-          <div className='pt-4'>
-            <p className='text-center text-base text-[#174dff] overline'>GustavoCastilloma@gmail.com</p>
+          <div className='pt-2 md:pt-3 '>
+            <p className='md:text-center  text-left text-sm text-[#174dff] overline'>GustavoCastilloma@gmail.com</p>
           </div>
         </div>
 
