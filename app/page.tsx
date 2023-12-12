@@ -70,8 +70,8 @@ function page() {
     initial={{ opacity: 0, y: 10 }}
     animate={{ opacity: 1, y: 0 }}
     transition={{ duration: 2.0 }}
-    className='text-[#344459] text-center font-lilita -z-0 text-8xl md:text-7xl lg:text-7xl leading-tight'>
-    Bienvenido a <p className='text-9xlxl'> Mi Portafolio </p>
+    className='text-[#344459] text-center font-lilita -z-0 text-4xl md:text-7xl lg:text-7xl leading-tight'>
+    Bienvenido a <p className='text-5xl'> Mi Portafolio </p>
   </motion.h1>
 </div>
 
