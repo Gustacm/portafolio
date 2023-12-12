@@ -76,9 +76,9 @@ function about() {
     <div className='pt-0'>
 
     <h3 className='text-center text-xs text-[#BFC5D9] pt-1'>
-  "Cada interacción, cada línea de código, es una oportunidad para dar vida a nuevas ideas y solucionar desafíos. 
+  Cada interacción, cada línea de código, es una oportunidad para dar vida a nuevas ideas y solucionar desafíos. 
   <br/> ¡Convierte tus conceptos en realidad y únete a la revolución digital! Estoy aquí para escuchar tus ideas y colaborar en la creación de algo extraordinario.
-  <br/> ¡Contáctame y comencemos a construir juntos el futuro que imaginamos!"
+  <br/> ¡Contáctame y comencemos a construir juntos el futuro que imaginamos!
 </h3>
 <div className='pt-6'>
             <p className='text-center text-xs text-[#174dff] overline'>GustavoCastilloma@gmail.com</p>

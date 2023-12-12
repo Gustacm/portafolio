@@ -1,4 +1,4 @@
-"use client"
+
 import Link from 'next/link'
 import { FaHome,FaGithubSquare,FaLinkedin, FaNode } from "react-icons/fa";
 import { motion } from "framer-motion"
@@ -263,7 +263,7 @@ Henry es una academia de desarrollo de software en Latinoamérica que ofrece for
         <div className='pt-0'>
     
         <h3 className='text-center text-xs text-[#BFC5D9] pt-1'>
-        🌟 Estoy abierto a oportunidades emocionantes y colaboraciones. ¡No dudes en contactarme en mi correo para cualquier consulta o propuesta! 📩"
+        🌟 Estoy abierto a oportunidades emocionantes y colaboraciones. ¡No dudes en contactarme en mi correo para cualquier consulta o propuesta! 📩
         <br/>Gacias por Visitar Mi app 
        
     </h3>
