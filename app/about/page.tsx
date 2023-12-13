@@ -78,12 +78,12 @@ function about() {
 
     <div className='pt-0'>
 
-    <h3 className='md:text-center  text-left  text-xs text-[#BFC5D9] pt-1'>
+    <h3 className='md:text-center  text-left  pl-2 text-xs text-[#BFC5D9] pt-2'>
   Cada interacción, cada línea de código, es una oportunidad para dar vida a nuevas ideas y solucionar desafíos. 
   <br/> ¡Convierte tus conceptos en realidad y únete a la revolución digital! Estoy aquí para escuchar tus ideas y colaborar en la creación de algo extraordinario.
 
 </h3>
-<div className='pt-6'>
+<div className='pt-5 '>
             <p className='md:text-center  text-left text-xs text-[#174dff] overline'>GustavoCastilloma@gmail.com</p>
       </div>
     </div>

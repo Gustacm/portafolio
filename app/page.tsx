@@ -110,7 +110,7 @@ function Page() {
 
 
         <div className='pt-0'>
-          <h3 className='md:text-center  text-left text-base md:text-sm text-[#BFC5D9] pt-6'>
+          <h3 className='md:text-center pl-1 text-left text-sm md:text-sm text-[#BFC5D9] pt-4'>
             La programación es el arte de crear mundos digitales, donde las ideas se transforman en realidad a través de la lógica y la creatividad. En cada línea de código,
             <br />se encuentra el poder de construir el futuro y resolver los desafíos del presente.
             <br />¡Programa con pasión y crea el cambio que deseas ver en el mundo digital!

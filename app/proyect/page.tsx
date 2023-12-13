@@ -44,12 +44,12 @@ function Page() {
       </div>
 
       <div id="floating-buttons">
-  <div className='fixed bottom-0 right-1 mb-0 md:mb-4'>
+  <div className='fixed bottom-0 right-1 mb-48 md:mb-4'>
     <Link href='https://github.com/Gustacm' target='_blank' className='text-[#BFC5D9] pt-5 text-5xl md:text-5xl hover:text-[#8089A6]'>
       <FaGithubSquare />
     </Link>
   </div>
-  <div className='fixed bottom-0 right-12 pt-10 pr-1 mb-0 md:mb-4'> 
+  <div className='fixed bottom-0 right-12 pt-10 pr-1 mb-48 md:mb-4'> 
     <Link href='https://www.linkedin.com/in/gustavo-castillo-94a000252' target='_blank' className='text-[#BFC5D9] pt-10 text-5xl md:text-5xl hover:text-[#8089A6]'>
       <FaLinkedin />
     </Link>
@@ -57,8 +57,8 @@ function Page() {
 </div>
 
       <div className='pt-0'>
-        <div className='md:text-center  text-left text-xs text-[#BFC5D9] pt-1'>
-          <h4 className='font-bold mb-1'>¡Dato curioso! 🌟</h4>
+        <div className='md:text-center pl-1  text-left text-xs text-[#BFC5D9] pt-1'>
+          <h4 className='font-bold pl-32 mb-1'>¡Dato curioso! 🌟</h4>
           Estás utilizando mi proyecto, el cual desarrollé con Next.js, Tailwind y TypeScript. Esta pequeña aplicación es una muestra de mis habilidades, destrezas y creatividad.
           <br />
           Te invito a visitar mi repositorio para ver cómo funciona. ¡Gracias por explorar! 🚀
