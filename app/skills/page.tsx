@@ -72,7 +72,7 @@ function page() {
       <div>
       <div className='flex flex-row flex-wrap justify-center'>
 
-      <div className='pl-0 md:pl-8 w-72 md:w-96 h-52 pt-8 p relative'>
+      <div className='pl-0 md:pl-8 w-72 md:w-96 h-52 pt-5 p relative'>
       <Link href='https://certificates.soyhenry.com/new-cert?id=ebef06262ca6f864668870433d51157da7302dbed00d938705525d7c49e1ca89'>
         <motion.div
           className='rounded-lg overflow-hidden cursor-pointer relative'
@@ -128,7 +128,7 @@ Henry es una academia de desarrollo de software en Latinoamérica que ofrece for
         <h2 className='text-center font-lilita'>Certificado Full Stack</h2>
       </div>
 
-      <div className='pl-0 md:pl-8 w-72 h-60 pt-2 p relative'>
+      <div className='pl-0 md:pl-8 w-72 h-60 pt-5 p relative'>
         <Link href='https://i.ibb.co/6yRQyP9/tec.jpg'>
           <motion.div
             className='rounded-lg overflow-hidden cursor-pointer relative'
@@ -155,7 +155,7 @@ Henry es una academia de desarrollo de software en Latinoamérica que ofrece for
         <h2 className='text-center font-lilita'>Certificado Técnico en Administración</h2>
       </div>
 
-      <div className='pl-0 md:pl-8 w-72 h-72 pt-8 p relative'>
+      <div className='pl-0 md:pl-8 w-72 h-60 pt-5 p relative'>
         <Link href='https://i.ibb.co/vkPL7Jj/fundaU.jpg'>
           <motion.div
             className='rounded-lg overflow-hidden cursor-pointer relative'
