@@ -19,13 +19,13 @@ function Page() {
 
         <div className='font-lilita shadow-cyan-500/50'>
           <Link href='/about'>
-            <h2 className='text-xl text-center font hover:text-clip text-[#010326] bg-[#BFC5D9] rounded w-16 hover:bg-[#8089A6] mx-auto'>
-              About
+            <h2 className='text-xl text-center font hover:text-clip text-[#010326] bg-[#BFC5D9] rounded w-24 hover:bg-[#8089A6] mx-auto'>
+              Sobre mi
             </h2>
           </Link>
         </div>
 
-        <h1 className='text-center font-lilita text-2xl md:pl-24 lg:text-4xl pl-2 lg:pl-80 text-[#BFC5D9] '>Proyect</h1>
+        <h1 className='text-center font-lilita text-2xl md:pl-24 lg:text-4xl pl-2 lg:pl-80 text-[#BFC5D9] '>Proyectos</h1>
 
       </div>
 

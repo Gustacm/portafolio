@@ -19,7 +19,7 @@ function about() {
         <Link href="/" className="text-[#BFC5D9] pl-4 md:pl-24 pr-4 md:pr-20 text-4xl hover:text-[#8089A6]">
           <FaHome />
         </Link>
-        <h1 className="text-center font-lilita text-4xl pl-4 md:pl-96 text-[#BFC5D9]">About Me</h1>
+        <h1 className="text-center font-lilita text-4xl pl-4 md:pl-96 text-[#BFC5D9]">Sobre Mi</h1>
       </div>
 
       <div className="flex flex-col md:flex-row bg-gradient-to-r from-[#3d679e00] to-[#344459] ring-offset-8">

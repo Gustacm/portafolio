@@ -11,10 +11,11 @@ import React, { useState, useEffect } from 'react';
 
 
 const photos = [
-  '/img/photos/0843.JPEG',
+  // '/img/photos/0843.JPEG',
   '/img/photos/0859.JPEG',
   '/img/photos/5032.JPEG',
   '/img/photos/5040.JPEG',
+  '/img/photos/E987.png',
 ];
 
 function Page() {
@@ -51,23 +52,23 @@ function Page() {
             ))}
           </div>
         </div>
-
-        <div className='absolute md:h-[80%] top-0 left-0 w-full md:w-[100%] h-[58%]  z-20 flex items-center justify-center shadow-md'>
-          <div className='bg-[#bfc5d98a] shadow-inner text-center front hover:text-clip px-10 md:px-96 py-28 md:py-36 rounded-lg'>
+        <div className='absolute top-0 left-0 w-auto md:h-auto md:w-[100%] h-96 z-20 flex items-center justify-center backdrop-blur-sm bg-[#c1c1c137] bg-gradient-to-t from-[#ffffff00] to-transparent border border-solid border-[#ffffff11] rounded-md'>
+                {/* <div className='bg-[#ffffff2f] rounded-md shadow-lg bg-blend-multiply'> */}
+          <div className=' text-center front  px-10 md:scroll-px-px py-28  '>
             <div className='w-full h-full '>
               <div className='w-full h-full'>
                 <motion.h1
                   initial={{ opacity: 0, y: 10 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 2.0 }}
-                  className='text-[#344459] text-center font-lilita pl-2 text-3xl md:text-5xl leading-tight'>
-                  Bienvenido a <p className='text-3xl md:text-5xl'> Mi Portafolio </p>
+                  className='text-[#344459]  text-center font-lilita  text-3xl md:text-4xl lg:text-7xl'>
+                  Bienvenido a <p className='text-3xl md:text-4xl lg:text-5xl'> Mi Portafolio </p>
                 </motion.h1>
               </div>
 
               <h3 className='bg-clip-text text-transparent bg-gradient-to-r from-[#344459] to-[#344459] capitalize break-all text-xl md:text-3xl pb-4 text-center font-Anton leading-tight'>
                 ¡Hola! Soy Gustavo Castillo, <br />
-                <span className='text-[#011140] border-solid border-2 border-[#011140] inline-block p-1'>
+                <span className='text-[#011140] border-solid border-2 border-[#011140] inline-block p-1 text-3xl md:text-4xl lg:text-5xl'>
                   Full stack Developer
                 </span> y este es mi espacio digital.
               </h3>
@@ -91,6 +92,7 @@ function Page() {
                 Proyectos
               </motion.button>
             </Link>
+            {/* </div> */}
           </div>
         </div>
 
@@ -109,7 +111,7 @@ function Page() {
 
 
 
-        <div className='pt-0'>
+        <div className='pt-4'>
           <h3 className='md:text-center pl-1 text-left text-sm md:text-sm text-[#BFC5D9] pt-4'>
             La programación es el arte de crear mundos digitales, donde las ideas se transforman en realidad a través de la lógica y la creatividad. En cada línea de código,
             <br />se encuentra el poder de construir el futuro y resolver los desafíos del presente.

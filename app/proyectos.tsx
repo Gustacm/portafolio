@@ -64,10 +64,10 @@ const proyectos: Proyecto[] = [
       baseDeDatos: [<h2 key="firebase"  className=" text-sm">Firebase</h2>, <BiLogoPostgresql key="ps" />],
     },
     imagen: [
-      "https://media.licdn.com/dms/image/D4E2DAQET9pnoOnAnkw/profile-treasury-image-shrink_800_800/0/1700759691720?e=1702904400&v=beta&t=uM4uLfOL044a8cJQYeRyRQA5pKOEOH-ESNB1uE1e_IQ",
-      "https://media.licdn.com/dms/image/D4E2DAQFqj1dSNPuphQ/profile-treasury-image-shrink_1920_1920/0/1700759735255?e=1702904400&v=beta&t=aaLz_l0vZHGdRWGMnwSoe3WNrzOqSnxAyx_Ja69iZ54",
-      "https://media.licdn.com/dms/image/D4E2DAQH9IIwFPxlpXg/profile-treasury-image-shrink_800_800/0/1700759774247?e=1702904400&v=beta&t=ftT8I6lWsUbiQk0Q88A8Xu5TKtMobqhUwskG6FccnF0",
-      "https://media.licdn.com/dms/image/D4E2DAQEj-8Chv_bI-g/profile-treasury-image-shrink_1920_1920/0/1700759794556?e=1702904400&v=beta&t=m0YTrczambIPCzjASvx2Z0lUJO4QGlyqdZUsgBhrooU",
+      "/img/nestp/1.jpg", 
+      "/img/nestp/2.jpg", 
+      "/img/nestp/3.jpg", 
+      "/img/nestp/4.jpg", 
     ],
   },
   {
@@ -97,15 +97,16 @@ const proyectos: Proyecto[] = [
       lenguaje: [<div key="typescript" className="text-8xl hover:text-yellow-500 transition duration-300 ease-in-out opacity-70 hover:opacity-80">
       <SiJavascript key="java"  />
     </div>],
-      frontend: [<FaReact key="nextjs"  />, <TbBrandRedux key="redux" />, <BiLogoTailwindCss key="twcss"   />,<FaCss3 key="css"  />],
+      frontend: [ <FaReact key="nextjs"  />, <TbBrandRedux key="redux" />, <BiLogoTailwindCss key="twcss"   />,<FaCss3 key="css"  />],
       backend: [<FaNodeJs key="node" />, <h1  key="react" className="text-sm">Express.js</h1>],
       baseDeDatos: [<SiMysql key="nmys"  />, <BiLogoPostgresql key="neps"  />],
     },
     imagen: [
-      "https://media.licdn.com/dms/image/D4E2DAQFGbIAn8AGnoQ/profile-treasury-image-shrink_800_800/0/1700758479231?e=1702904400&v=beta&t=m2HY21w5PcN-O8SPI45YNKX7XVhaBntwtAiYhts3QFo",
-      "https://media.licdn.com/dms/image/D4E2DAQEWi_StaXfO-w/profile-treasury-image-shrink_800_800/0/1700758537763?e=1702904400&v=beta&t=_FajReoOx5MiAZesuIfIdp1pGs1fH2gJne4isAcFTrk",
-      "https://media.licdn.com/dms/image/D4E2DAQEEB5_cDCzFqg/profile-treasury-image-shrink_800_800/0/1700758550881?e=1702904400&v=beta&t=aG_BSwXONKrn2EBYGf0rui2QFIAQOB1kfGMhyID18hU",
-      "https://media.licdn.com/dms/image/D4E2DAQFKELKbILKbsQ/profile-treasury-image-shrink_800_800/0/1700758580957?e=1702904400&v=beta&t=FZacPZAbzDJqdXwpAfzV0dov8LrayqBRLLnWn_oF3sI",
+      "/img/pokemonp/03.jpg", 
+      "/img/pokemonp/1.jpg", 
+      "/img/pokemonp/02.jpg", 
+      "/img/pokemonp/04.jpg", 
+
     ],
   },
 ];

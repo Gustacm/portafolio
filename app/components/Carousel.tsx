@@ -19,7 +19,7 @@ const Carousel: React.FC<CarouselProps> = ({ images }) => {
   };
 
   return (
-    <div className=" w-ful">
+    <div className="  w-ful">
       <div className=" h-60 overflow-hidden rounded-lg">
         <AnimatePresence initial={false} custom={currentIndex}>
           {images.map((image, index) => (
@@ -28,7 +28,7 @@ const Carousel: React.FC<CarouselProps> = ({ images }) => {
                 key={index}
                 src={image}
                 alt={`Image ${index + 1}`}
-                className="absolute block w-full h-full object-cover"
+                className="  absolute block w-full h-full object-cover  "
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 exit={{ opacity: 0 }}
