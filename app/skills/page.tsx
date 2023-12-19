@@ -100,7 +100,7 @@ function page() {
       <h2 className='text-center font-lilita'>Certificado Teaching Assistant</h2>
     </div>
 
-    <div className='pl-0 md:pl-8 w-72 md:w-96 h-60 pt-5 p relative'>
+    {/* <div className='pl-0 md:pl-8 w-72 md:w-96 h-60 pt-5 p relative'>
         <Link href='https://certificates.soyhenry.com/new-cert?id=b1dd215a715580c6bed2adffdb999109251a810c261b6405d15580d2d9335131'>
           <motion.div
             className='rounded-lg overflow-hidden cursor-pointer relative'
@@ -153,7 +153,7 @@ Henry es una academia de desarrollo de software en Latinoamérica que ofrece for
         </motion.div>
         </Link>
         <h2 className='text-center font-lilita'>Certificado Técnico en Administración</h2>
-      </div>
+      </div> */}
 
       <div className='pl-0 md:pl-8 w-72 h-60 pt-5 p relative'>
         <Link href='https://i.ibb.co/vkPL7Jj/fundaU.jpg'>
