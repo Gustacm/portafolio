@@ -26,7 +26,7 @@ function about() {
         <iframe
           width="100%"
           height="390"
-          src="https://www.youtube.com/embed/AuegdLOxJp8?si=eexMhvl_Xoah6SyW"
+          src="https://www.youtube.com/embed/OBLfwMXvxgI?si=IEOzRwktDn4p3fnl"
           title="YouTube video player"
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

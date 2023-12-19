@@ -79,7 +79,7 @@ function Page() {
                 whileTap={{ scale: 0.4 }}
                 transition={{ type: 'spring', stiffness: 400, damping: 17 }}
                 className='text-[#ffffff] capitalize text-xl md:text-4xl px-6 md:px-10 py-1 font-lilita rounded-none bg-[#344459] hover:bg-[#8089A6] transition duration-300'>
-                About Me
+                Sobre mi
               </motion.button>
             </Link>
             <Link href='/proyect'>
@@ -88,7 +88,7 @@ function Page() {
                 whileTap={{ scale: 0.1 }}
                 transition={{ type: 'spring', stiffness: 400, damping: 17 }}
                 className='text-white text-xl rounded-none md:text-4xl px-6 md:px-10 py-1 font-lilita bg-[#011140] hover:bg-[#8089A6] transition duration-300'>
-                Proyect
+                Proyectos
               </motion.button>
             </Link>
           </div>
@@ -130,4 +130,5 @@ function Page() {
 }
 
 export default Page
+
 
