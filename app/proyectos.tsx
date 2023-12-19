@@ -55,7 +55,7 @@ const proyectos: Proyecto[] = [
         <a  href="https://redux-toolkit.js.org/" className="flex flex-col items-center text-center cursor-pointer"  key="nextjs" > <TbBrandRedux key="redux"   /> <h3 className="text-xs text-center">Redux Toolkit</h3> </a>,
         <a href="https://tailwindcss.com/"  className="flex flex-col items-center text-center cursor-pointer"  key="nextjs" > <BiLogoTailwindCss key="twcss"   /> <h3 className="text-xs text-center">Tailwind</h3> </a>,
         <a  href="https://cloudinary.com/" className="flex flex-col items-center text-center cursor-pointer"  key="nextjs" > <LiaCloudShowersHeavySolid key="cloudinary"   /> <h3 className="text-xs text-center">Cloudinary</h3> </a>, 
-        <a  href="https://www.mercadopago.cl//" className="flex flex-col items-center text-center cursor-pointer"> <SiMercadopago key="mp"   /> <h3 className="text-xs text-center">Mercado pago</h3> </a>, 
+        <a  href="https://www.mercadopago.cl//" className="flex flex-col items-center text-center cursor-pointer"  key="nextjs" > <SiMercadopago key="mp"   /> <h3 className="text-xs text-center">Mercado pago</h3> </a>, 
         <a  href="https://www.figma.com/" className="flex flex-col items-center text-center cursor-pointer"  key="nextjs" > <SiFigma key="fig"   /> <h3 className="text-xs text-center">Figma</h3> </a>, 
  
       ],
