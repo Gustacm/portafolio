@@ -48,14 +48,14 @@ function page() {
 
   <div className='font-lilita shadow-cyan-500/50 pr- flex'>
     <Link className='pr-2' href='/about'>
-      <h2 className='text-xl text-center font hover:text-clip text-[#010326] bg-[#BFC5D9] rounded w-20 hover:bg-[#8089A6] mx-auto'>
-        About
+      <h2 className='text-xl text-center font hover:text-clip text-[#010326] bg-[#BFC5D9] rounded w-24 hover:bg-[#8089A6] mx-auto'>
+        Sobre Mi
       </h2>
     </Link>
 
     <Link href='/proyect'>
-      <h2 className='text-xl text-center font hover:text-clip text-[#010326] bg-[#BFC5D9] rounded w-20 hover:bg-[#8089A6] mx-auto'>
-        Proyect
+      <h2 className='text-xl text-center font hover:text-clip text-[#010326] bg-[#BFC5D9] rounded w-24 hover:bg-[#8089A6] mx-auto'>
+        Proyectos
       </h2>
     </Link>
   </div>

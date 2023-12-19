@@ -57,7 +57,7 @@ function about() {
       <div className="font-lilita mt-5 shadow-cyan-500/50">
         <Link href="/proyect">
           <h2 className="text-4xl text-center font hover:text-clip text-[#010326] bg-[#BFC5D9] rounded w-40 hover:bg-[#8089A6] mx-auto">
-            Proyect
+            Proyectos
           </h2>
         </Link>
       </div>
