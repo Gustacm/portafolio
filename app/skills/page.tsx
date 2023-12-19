@@ -3,7 +3,7 @@
 import Link from 'next/link'
 import { FaHome,FaGithubSquare,FaLinkedin, FaNode } from 'react-icons/fa';
 import { motion } from 'framer-motion'
-import { SiTypescript,SiJavascript, SiRedux, SiReact, SiNextdotjs, SiNestjs, SiTailwindcss, SiGit, SiCss3, SiDiscord, SiIterm2, SiNotion, SiNpm, SiPostgresql, SiPostman, SiSlack, SiTorbrowser, SiWindows10, SiZoom, SiLinux, SiLinuxmint, SiHtml5, SiMysql, SiUbuntu, SiVite, SiTrello, SiFramer, SiFigma, SiExpress, SiMercadopago } from 'react-icons/si';
+import { SiTypescript,SiJavascript, SiRedux, SiReact, SiVercel, SiNextdotjs, SiNestjs, SiTailwindcss, SiGit, SiCss3, SiDiscord, SiIterm2, SiNotion, SiNpm, SiPostgresql, SiPostman, SiSlack, SiTorbrowser, SiWindows10, SiZoom, SiLinux, SiLinuxmint, SiHtml5, SiMysql, SiUbuntu, SiVite, SiTrello, SiFramer, SiFigma, SiExpress, SiMercadopago } from 'react-icons/si';
 import { TbBrandVscode } from 'react-icons/tb';
 import { LiaCloudShowersHeavySolid } from 'react-icons/lia';
 import { BsStripe } from 'react-icons/bs';
@@ -208,7 +208,7 @@ Henry es una academia de desarrollo de software en Latinoamérica que ofrece for
           <TecnologiaEnlace nombre='Postgresql' icono={<SiPostgresql />} documentacionUrl='https://www.postgresql.org/' />
           <TecnologiaEnlace nombre='Postman' icono={<SiPostman />} documentacionUrl='https://www.postman.com/' />
           <TecnologiaEnlace nombre='Slack' icono={<SiSlack />} documentacionUrl='https://slack.com' />
-           <TecnologiaEnlace nombre='Torbrowser' icono={<SiTorbrowser />} documentacionUrl='' /> 
+           <TecnologiaEnlace nombre='Torbrowser' icono={<SiTorbrowser />} documentacionUrl='https://www.torproject.org/es/' /> 
           <TecnologiaEnlace nombre='Windows' icono={<SiWindows10 />} documentacionUrl='https://support.microsoft.com/en-us/windows/find-your-documents-in-windows-5c7c8cfe-c289-fae4-f5f8-6b3fdba418d2' />
           <TecnologiaEnlace nombre='Linux' icono={<SiLinux />} documentacionUrl='https://en.wikipedia.org/wiki/Linux' />
           <TecnologiaEnlace nombre='Linux mint' icono={<SiLinuxmint />} documentacionUrl='https://linuxmint.com/documentation.php' />         
@@ -225,7 +225,7 @@ Henry es una academia de desarrollo de software en Latinoamérica que ofrece for
           <TecnologiaEnlace nombre='Cloudinary' icono={<LiaCloudShowersHeavySolid />} documentacionUrl='https://cloudinary.com/' />
           <TecnologiaEnlace nombre='Stripe ' icono={<BsStripe />} documentacionUrl='https://stripe.com/es-us' />
           <TecnologiaEnlace nombre='Mercado pago ' icono={<SiMercadopago />} documentacionUrl='https://www.mercadopago.cl/developers/es/docs/checkout-api/landing' />
-          
+          <TecnologiaEnlace nombre='Vercel ' icono={<SiVercel/>} documentacionUrl='https://vercel.com' />
 
 
 
