@@ -51,23 +51,23 @@ const proyectos: Proyecto[] = [
       <SiTypescript key="ns" />
     </div>],
       frontend: [
-        <a  href="https://nextjs.org/" className="flex flex-col items-center text-center cursor-pointer"> <TbBrandNextjs key="nextjs"   /> <h3 className="text-xs text-center">Next.js</h3> </a>, 
-        <a  href="https://redux-toolkit.js.org/" className="flex flex-col items-center text-center cursor-pointer"> <TbBrandRedux key="nextjs"   /> <h3 className="text-xs text-center">Redux Toolkit</h3> </a>,
-        <a href="https://tailwindcss.com/"  className="flex flex-col items-center text-center cursor-pointer"> <BiLogoTailwindCss key="twcss"   /> <h3 className="text-xs text-center">Tailwind</h3> </a>,
-        <a  href="https://cloudinary.com/" className="flex flex-col items-center text-center cursor-pointer"> <LiaCloudShowersHeavySolid key="nextjs"   /> <h3 className="text-xs text-center">Cloudinary</h3> </a>, 
-        <a  href="https://nextjs.org/" className="flex flex-col items-center text-center cursor-pointer"> <SiMercadopago key="nextjs"   /> <h3 className="text-xs text-center">Mercado pago</h3> </a>, 
-        <a  href="https://www.figma.com/" className="flex flex-col items-center text-center cursor-pointer"> <SiFigma key="nextjs"   /> <h3 className="text-xs text-center">Figma</h3> </a>, 
+        <a  href="https://nextjs.org/" className="flex flex-col items-center text-center cursor-pointer"  key="nextjs" > <TbBrandNextjs key="nextjs"   /> <h3 className="text-xs text-center">Next.js</h3> </a>, 
+        <a  href="https://redux-toolkit.js.org/" className="flex flex-col items-center text-center cursor-pointer"  key="nextjs" > <TbBrandRedux key="redux"   /> <h3 className="text-xs text-center">Redux Toolkit</h3> </a>,
+        <a href="https://tailwindcss.com/"  className="flex flex-col items-center text-center cursor-pointer"  key="nextjs" > <BiLogoTailwindCss key="twcss"   /> <h3 className="text-xs text-center">Tailwind</h3> </a>,
+        <a  href="https://cloudinary.com/" className="flex flex-col items-center text-center cursor-pointer"  key="nextjs" > <LiaCloudShowersHeavySolid key="cloudinary"   /> <h3 className="text-xs text-center">Cloudinary</h3> </a>, 
+        <a  href="https://www.mercadopago.cl//" className="flex flex-col items-center text-center cursor-pointer"> <SiMercadopago key="mp"   /> <h3 className="text-xs text-center">Mercado pago</h3> </a>, 
+        <a  href="https://www.figma.com/" className="flex flex-col items-center text-center cursor-pointer"  key="nextjs" > <SiFigma key="fig"   /> <h3 className="text-xs text-center">Figma</h3> </a>, 
  
       ],
       backend: [
-        <a  href="https://nestjs.com/" className="flex flex-col items-center text-center cursor-pointer"> <SiNestjs key="nextjs"   /> <h3 className="text-xs text-center">Nest.js</h3> </a>, 
-<a  href="https://nodejs.org/en" className="flex flex-col items-center text-center cursor-pointer"> <FaNode key="nextjs"   /> <h3 className="text-xs text-center">NodeJs</h3> </a>,
-<a  href="https://www.coinbase.com/es-LA/" className="flex flex-col items-center text-center cursor-pointer">  <h3 className="text-xs text-center">Coinbase</h3> </a>,
-<a  href="https://stripe.com/es-us" className="flex flex-col items-center text-center cursor-pointer"> <BsStripe key="nextjs"   /> <h3 className="text-xs text-center">Stripe</h3> </a>,
+        <a  href="https://nestjs.com/" className="flex flex-col items-center text-center cursor-pointer"  key="nextjs" > <SiNestjs key="ns"   /> <h3 className="text-xs text-center">Nest.js</h3> </a>, 
+<a  href="https://nodejs.org/en" className="flex flex-col items-center text-center cursor-pointer"  key="nextjs" > <FaNode key="ads"   /> <h3 className="text-xs text-center">NodeJs</h3> </a>,
+<a  href="https://www.coinbase.com/es-LA/" className="flex flex-col items-center text-center cursor-pointer"  key="nextjs" >  <h3 className="text-xs text-center">Coinbase</h3> </a>,
+<a  href="https://stripe.com/es-us" className="flex flex-col items-center text-center cursor-pointer"  key="nextjs" > <BsStripe key="nextjs"   /> <h3 className="text-xs text-center">Stripe</h3> </a>,
       ],
       baseDeDatos:[
-        <a  href="https://firebase.google.com/?hl=es-419" className="flex flex-col items-center text-center cursor-pointer"> <SiFirebase key="nextjs"   /> <h3 className="text-xs text-center">firebase</h3> </a>,
-        <a  href="https://www.postgresql.org/" className="flex flex-col items-center text-center cursor-pointer"> <BiLogoPostgresql key="nextjs"   /> <h3 className="text-xs text-center">Postgresql</h3> </a>
+        <a  href="https://firebase.google.com/?hl=es-419" className="flex flex-col items-center text-center cursor-pointer"  key="nextjs" > <SiFirebase key="nextjs"   /> <h3 className="text-xs text-center">firebase</h3> </a>,
+        <a  href="https://www.postgresql.org/" className="flex flex-col items-center text-center cursor-pointer"  key="nextjs" > <BiLogoPostgresql key="nextjs"   /> <h3 className="text-xs text-center">Postgresql</h3> </a>
       ],
     },
     imagen: [
@@ -105,17 +105,17 @@ const proyectos: Proyecto[] = [
       <SiJavascript key="java"  />
     </div>],
       frontend: [  
-      <a  href="https://react.dev" className="flex flex-col items-center text-center cursor-pointer"> <FaReact key="nextjs"   /> <h3 className="text-xs text-center">React</h3> </a>,
-      <a href="https://redux.js.org"  className="flex flex-col items-center text-center cursor-pointer"> <TbBrandRedux key="nextjs"   /> <h3 className="text-xs text-center">Redux</h3> </a>,
-      <a href="https://tailwindcss.com/"  className="flex flex-col items-center text-center cursor-pointer"> <BiLogoTailwindCss key="twcss"   /> <h3 className="text-xs text-center">Tailwind</h3> </a>,
-      <a href="https://developer.mozilla.org/en-US/docs/Web/CSS"  className="flex flex-col items-center text-center cursor-pointer"> <SiCss3 key="css"   /> <h3 className="text-xs text-center">CSS3</h3> </a>,],
+      <a  href="https://react.dev" className="flex flex-col items-center text-center cursor-pointer"  key="nextjs" > <FaReact key="nextjs"   /> <h3 className="text-xs text-center">React</h3> </a>,
+      <a href="https://redux.js.org"  className="flex flex-col items-center text-center cursor-pointer"  key="nextjs" > <TbBrandRedux key="nextjs"   /> <h3 className="text-xs text-center">Redux</h3> </a>,
+      <a href="https://tailwindcss.com/"  className="flex flex-col items-center text-center cursor-pointer"  key="nextjs" > <BiLogoTailwindCss key="twcss"   /> <h3 className="text-xs text-center">Tailwind</h3> </a>,
+      <a href="https://developer.mozilla.org/en-US/docs/Web/CSS"  className="flex flex-col items-center text-center cursor-pointer"  key="nextjs" > <SiCss3 key="css"   /> <h3 className="text-xs text-center">CSS3</h3> </a>,],
       backend: [
-        <a  href="https://nodejs.org/en" className="flex flex-col items-center text-center cursor-pointer"> <FaNode key="nextjs"   /> <h3 className="text-xs text-center">NodeJs</h3> </a>,
-        <a  href="https://expressjs.com/" className="flex flex-col items-center text-center cursor-pointer"> <SiExpress key="nextjs"   /> <h3 className="text-xs text-center">Express</h3> </a>,
+        <a  href="https://nodejs.org/en" className="flex flex-col items-center text-center cursor-pointer"  key="nextjs" > <FaNode key="nextjs"   /> <h3 className="text-xs text-center">NodeJs</h3> </a>,
+        <a  href="https://expressjs.com/" className="flex flex-col items-center text-center cursor-pointer"  key="nextjs" > <SiExpress key="nextjs"   /> <h3 className="text-xs text-center">Express</h3> </a>,
         ],
       baseDeDatos: [
-        <a  href="https://www.mysql.com/" className="flex flex-col items-center text-center cursor-pointer"> <SiMysql key="nextjs"   /> <h3 className="text-xs text-center">Mysql</h3> </a>,
-        <a  href="https://www.postgresql.org/" className="flex flex-col items-center text-center cursor-pointer"> <BiLogoPostgresql key="nextjs"   /> <h3 className="text-xs text-center">Postgresql</h3> </a>,       
+        <a  href="https://www.mysql.com/" className="flex flex-col items-center text-center cursor-pointer"  key="nextjs" > <SiMysql key="nextjs"   /> <h3 className="text-xs text-center">Mysql</h3> </a>,
+        <a  href="https://www.postgresql.org/" className="flex flex-col items-center text-center cursor-pointer"  key="nextjs" > <BiLogoPostgresql key="nextjs"   /> <h3 className="text-xs text-center">Postgresql</h3> </a>,       
   ],
     },
     imagen: [
