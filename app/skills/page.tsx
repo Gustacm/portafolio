@@ -3,7 +3,7 @@
 import Link from 'next/link'
 import { FaHome,FaGithubSquare,FaLinkedin, FaNode } from 'react-icons/fa';
 import { motion } from 'framer-motion'
-import { SiTypescript,SiJavascript, SiRedux, SiReact, SiVercel, SiNextdotjs, SiNestjs, SiTailwindcss, SiGit, SiCss3, SiDiscord, SiIterm2, SiNotion, SiNpm, SiPostgresql, SiPostman, SiSlack, SiTorbrowser, SiWindows10, SiZoom, SiLinux, SiLinuxmint, SiHtml5, SiMysql, SiUbuntu, SiVite, SiTrello, SiFramer, SiFigma, SiExpress, SiMercadopago } from 'react-icons/si';
+import { SiTypescript,SiJavascript, SiRedux, SiReact, SiVercel, SiNextdotjs, SiNestjs, SiTailwindcss, SiGit, SiCss3, SiDiscord, SiIterm2, SiNotion, SiNpm, SiPostgresql, SiPostman, SiSlack, SiTorbrowser, SiWindows10, SiZoom, SiLinux, SiLinuxmint, SiHtml5, SiMysql, SiUbuntu, SiVite, SiTrello, SiFramer, SiFigma, SiExpress, SiMercadopago, SiFirebase } from 'react-icons/si';
 import { TbBrandVscode } from 'react-icons/tb';
 import { LiaCloudShowersHeavySolid } from 'react-icons/lia';
 import { BsStripe } from 'react-icons/bs';
@@ -225,7 +225,8 @@ Henry es una academia de desarrollo de software en Latinoamérica que ofrece for
           <TecnologiaEnlace nombre='Cloudinary' icono={<LiaCloudShowersHeavySolid />} documentacionUrl='https://cloudinary.com/' />
           <TecnologiaEnlace nombre='Stripe ' icono={<BsStripe />} documentacionUrl='https://stripe.com/es-us' />
           <TecnologiaEnlace nombre='Mercado pago ' icono={<SiMercadopago />} documentacionUrl='https://www.mercadopago.cl/developers/es/docs/checkout-api/landing' />
-          <TecnologiaEnlace nombre='Vercel ' icono={<SiVercel/>} documentacionUrl='https://vercel.com' />
+          <TecnologiaEnlace nombre='Firebase ' icono={<SiFirebase/>} documentacionUrl='https://firebase.google.com/?hl=es-419' />.
+
 
 
 
