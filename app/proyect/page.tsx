@@ -64,7 +64,7 @@ function Page() {
           Te invito a visitar mi repositorio para ver cómo funciona. ¡Gracias por explorar! 🚀
         </div>
         <div className='pt-1'>
-          <p className='md:text-center  text-left text-xs text-[#174dff] overline'>GustavoCastilloma@gmail.com</p>
+          <p className='md:text-center  text-left text-xs text-[#174dff] overline'>gcastillo.dev@gmail.com</p>
         </div>
       </div>
 

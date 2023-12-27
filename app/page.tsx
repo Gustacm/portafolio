@@ -118,7 +118,7 @@ function Page() {
             <br />¡Programa con pasión y crea el cambio que deseas ver en el mundo digital!
           </h3>
           <div className='pt-2 md:pt-3 '>
-            <p className='md:text-center  text-left text-sm text-[#174dff] overline'>GustavoCastilloma@gmail.com</p>
+            <p className='md:text-center  text-left text-sm text-[#174dff] overline'>gcastillo.dev@gmail.com</p>
           </div>
         </div>
 

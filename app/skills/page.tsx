@@ -276,7 +276,7 @@ Henry es una academia de desarrollo de software en Latinoamérica que ofrece for
        
     </h3>
     <div className='pt-1'>
-                <p className='md:text-center  text-left text-sm text-[#174dff] overline'>GustavoCastilloma@gmail.com</p>
+                <p className='md:text-center  text-left text-sm text-[#174dff] overline'>gcastillo.dev@gmail.com</p>
           </div>
         </div>
         

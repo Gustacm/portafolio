@@ -84,7 +84,7 @@ function about() {
 
 </h3>
 <div className='pt-5 '>
-            <p className='md:text-center  text-left text-xs text-[#174dff] overline'>GustavoCastilloma@gmail.com</p>
+            <p className='md:text-center  text-left text-xs text-[#174dff] overline'>gcastillo.dev@gmail.com</p>
       </div>
     </div>
     
