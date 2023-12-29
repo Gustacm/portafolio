@@ -18,6 +18,7 @@ const Cards: React.FC = () => {
           <Card key={index} proyecto={proyecto} />
         ))}
       </div>
+      
     </section>
   );
 };
