@@ -128,32 +128,7 @@ Henry es una academia de desarrollo de software en Latinoamérica que ofrece for
         <h2 className='text-center font-lilita'>Certificado Full Stack</h2>
       </div> 
 
-      {/* <div className='pl-0 md:pl-8 w-72 h-60 pt-5 p relative'>
-        <Link href='https://i.ibb.co/6yRQyP9/tec.jpg'>
-          <motion.div
-            className='rounded-lg overflow-hidden cursor-pointer relative'
-            whileHover={{ scale: 1.05 }}
-          >
-          <motion.img
-            src='/img/tec.jpeg'
-            alt='Description of the image'
-            className='w-full h-full'
-            whileHover={{ filter: 'blur(5px)' }}
-            initial={{ filter: 'blur(0px)' }}
-          />
-          <div className='absolute top-0 left-0 w-full h-full flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300'>
-            <div className=' h-full w-full  items-center justify-center  bg-[#010326b3]   '>
-            <div className='text-white text-center p-3'>
-                <h3 className='text-xl font-semibold pt-2'>Tco. Admin 👨‍💼</h3>
-                <h4  className=' text-sm font-normal text-left pt-2 '>
-                Capacitado en tareas administrativas y de gestión empresarial, organizar recursos y facilitar el buen funcionamiento de una organización.</h4>
-            </div>
-            </div>
-          </div>
-        </motion.div>
-        </Link>
-        <h2 className='text-center font-lilita'>Certificado Técnico en Administración</h2>
-      </div>  */}
+ 
 
       <div className='pl-0 md:pl-8 w-72 h-60 pt-5 p relative'>
         <Link href='https://i.ibb.co/vkPL7Jj/fundaU.jpg'>
@@ -181,6 +156,35 @@ Henry es una academia de desarrollo de software en Latinoamérica que ofrece for
         </motion.div>
       </Link>
       <h2 className='text-center font-lilita'>Certificado Oratoria y Liderazgo </h2>
+    </div>
+
+
+    <div className='pl-0 md:pl-8 w-72 h-60 pt-5 p relative'>
+        <Link href='https://www.linkedin.com/learning/certificates/a1ed43b5056c162efebd3cdc39540ce76b16dfa8ec5914ca7219b06305ae14d7'>
+          <motion.div
+            className='rounded-lg overflow-hidden cursor-pointer relative'
+            whileHover={{ scale: 1.05 }}
+          >
+          <motion.img
+            src='/img/cmc.png'
+            alt='Description of the image'
+            className='w-full h-full'
+            whileHover={{ filter: 'blur(5px)' }}
+            initial={{ filter: 'blur(0px)' }}
+          />
+          <div className='absolute top-0 left-0 w-full h-full flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300'>
+            <div className=' h-full w-full  items-center justify-center  bg-[#010326b3]   '>
+            <div className='text-white text-center p-3'>
+                <h3 className='text-xl font-semibold pt-2'>Fundamentos profesionales del desarrollo de software</h3>
+                <h4  className=' text-sm font-normal text-left pt-3 '>
+                Desarrollé la capacidad para comprender y aplicar conceptos fundamentales de programación,
+                 permitiéndome abordar problemas y escribir código de manera efectiva.</h4> 
+            </div>
+            </div>
+          </div>
+        </motion.div>
+      </Link>
+      <h2 className='text-center font-lilita'>Fundamentos profesionales del desarrollo de software</h2>
     </div>
 
     </div>
